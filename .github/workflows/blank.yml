@@ -21,7 +21,8 @@ jobs:
            python-version: 3.8.x
  
        
-       - name: run schemachange!
+       - name: run schemachange|
+       
          env: 
           SNOWFLAKE_ACCOUNT: ${{ secrets.SF_ACCOUNT }}
           SNOWFLAKE_USER: ${{ secrets.SF_USERNAME }}
