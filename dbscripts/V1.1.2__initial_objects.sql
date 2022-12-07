@@ -3,4 +3,4 @@
   
   
   INSERT INTO FIRST_TABLE_CICD
-  VALUES("12","23","122");
+  VALUES('12','34','343');
